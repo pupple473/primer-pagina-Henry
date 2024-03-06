@@ -1,0 +1,50 @@
+body{
+    background-color: chocolate;
+}
+h4{
+    background-color: maroon;
+}
+.encabezado{
+    border: 2px solid black;
+    width: 60vw;
+    margin: auto;
+    padding: 1.7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    font-size: 1.7em;
+
+}
+.cards{
+    border: 2px solid goldenrod;
+    width: fit-content;
+    padding: 1em 1em 1em 1em;
+    border-radius: 7%;
+    transition: 1.1s;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+
+}
+.cards:hover{
+    background-color: goldenrod;
+}
+.logol{
+    width: 200px;
+}
+#cards-container{
+    width: 85vw;
+    margin: auto;
+    margin-top: 1,5em;
+    border: 2px solid  black;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#htmllogo{
+    background-color: white;
+}
