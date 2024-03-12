@@ -20,6 +20,7 @@ body {
     }
     .navbar li a {
         background-color: #212121;
+        color: white;
     }
     .navbar li a:hover {
         background-color: black;
@@ -37,6 +38,15 @@ footer {
 h1 {
     border: green solid 2px;
     margin-bottom: 2em;
+}
+h3 {
+    border: 2px solid darkblue;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 h4 {
@@ -75,6 +85,8 @@ div {
     margin-bottom: 1em;
     padding-left: 1em;
     padding-right: 1em;
+    display: flex;
+    flex-direction: column;
 }
 .cards {
     border: 2px solid goldenrod;
@@ -112,6 +124,16 @@ div {
     border: rebeccapurple solid 2px;
     margin: auto;
     margin-top: 2em;
+}
+.dato0{
+    border: blue solid 1.5px;
+    font-size: 1.1em;
+}
+.dato1{
+    border: greenyellow solid 1.5px;
+    border-radius: 0%;
+    font-size: 1.1em;
+
 }
 #formulario{
     border: red solid 2px;
@@ -173,13 +195,52 @@ div {
     flex-direction: row;
     justify-content: space-evenly;
 }
+#noticia2{
+    border: 2px olivedrab solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    width: 100%;
 
+}
+#noticia2info{
+    border: 2px solid blue;
+    position: relative;
+    width: fit-content;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; 
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#noticia2img{
+    background-image: url('imagen-prueba-1.jpg');
+    background-position: center;
+    border: 2px solid red;
+    position: relative;
+    width: 50vh;
+    height: 50vh;
+    margin-left: 1em;
+    margin-right: 1em;
+}
 #htmllogo {
     background-color: white;
 }
 
 
-
+form > div {
+    border: pink solid 2px;
+    position: relative;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0.9em;
+    display: flex;
+}
 div > p {
     border: 2px solid darkblue;
     text-align: justify;
