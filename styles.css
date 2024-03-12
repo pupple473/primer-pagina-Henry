@@ -60,6 +60,14 @@ div {
 .encabezado {
     position: relative;
     z-index: 2;
+
+div {
+    padding: 1em;
+}
+
+.encabezado {
+    position: relative;
+    z-index: 2;
     border: 2px solid black;
     width: 60vw;
     margin: auto;
@@ -89,6 +97,7 @@ div {
     flex-direction: column;
 }
 .cards {
+.cards {
     border: 2px solid goldenrod;
     width: fit-content;
     padding: 1em 1em 1em 1em;
@@ -99,14 +108,21 @@ div {
     gap: 1em;
     align-items: center;
 }
+}
 
+.cards .title {
+    align-self: flex-start;
 .cards .title {
     align-self: flex-start;
 }
 
 .cards:hover {
+
+.cards:hover {
     background-color: goldenrod;
 }
+
+.logol {
 
 .logol {
     width: 200px;
@@ -188,6 +204,8 @@ div {
 #cards-container {
     width: 85vw;
     margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid black;
     margin-top: 1.5em;
     border: 2px solid black;
     padding: 2em;
